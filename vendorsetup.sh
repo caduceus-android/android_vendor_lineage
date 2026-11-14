@@ -22,7 +22,7 @@ gradient_derpfest() {
 if [ -z "${WELCOME_SHOWN}" ]; then
 
     # Welcome message
-    echo -e "$(gradient_derpfest "Welcome to DerpFest!")"
+    echo -e "$(gradient_derpfest "Welcome to CaduceusOS!")"
 
     echo -e "\nHere are some things before you get started!\n"
 
@@ -40,11 +40,10 @@ if [ -z "${WELCOME_SHOWN}" ]; then
     echo -e "  - TARGET_DISABLE_EPPE - Disable EPPE enforcement"
     echo -e "  - TARGET_EXCLUDE_BACKUPTOOL - Exclude backup tool"
     
-    echo -e "\nDon't forget to join https://t.me/DerpFestAOSP! Enjoy! :D"
 
     export WELCOME_SHOWN=true
 
 else
-    echo -e "$(gradient_derpfest "Welcome to DerpFest!")"
+    echo -e "$(gradient_derpfest "Welcome to CaduceusOS!")"
     echo -e "Environment ready."
 fi

@@ -12,7 +12,7 @@ PRODUCT_SOURCE_ROOT_DIRS += -prebuilts/misc/protobuf_vendorcompat
 # Allow vendor prebuilt repos to exclude themselves from bp scanning
 -include $(sort $(wildcard vendor/*/*/exclude-bp.mk))
 
-PRODUCT_BRAND ?= DerpFest
+PRODUCT_BRAND ?= CaduceusOS
 
 # Call recording
 TARGET_CALL_RECORDING_SUPPORTED ?= true
